@@ -1,9 +1,9 @@
 # Modelo_de_Pipeline_ETL
-Desafio de projeto do santander bootcamp de ciência de dados com python
+Desafio de projeto do santander bootcamp de ciência de dados com python da DIO
 
 <h2>Introdução</h2>
 
-* O desafio consistia em reimaginar o modelo ensinado no BootCamp.
+* O desafio consistia em reimaginar o modelo ensinado no BootCamp da DIO.
 
 * O funcionamento do programa é bem simples, ele extrai 3 registros de um banco de dados mysql a partir de uma lista de ids em csv manipulada com pandas e adiciona a cada um desse registros frase de motivação e bem-estar.
 
