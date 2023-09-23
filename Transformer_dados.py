@@ -41,7 +41,6 @@ class TranformarDados:
 
     def adicionar_frase(self):
         extract = Extract()
-        self.chatbot.chat_bot.storage.drop()
         lista_users = []
         for user in extract.users:
             frase = self._gerar_mensagens_de_bem_estar(user)
@@ -49,7 +48,3 @@ class TranformarDados:
             listaUser[3] = frase
             lista_users.append(listaUser)
         return lista_users
-
-
-
-# TranformarDados().adicionar_frase()

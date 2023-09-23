@@ -19,6 +19,3 @@ class Extract:
 
     def users_list(self):
         print(self.users)
-#
-# extract = Extract()
-# print(extract.get_user(1)[1])
